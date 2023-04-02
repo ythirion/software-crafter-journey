@@ -44,7 +44,7 @@ This journey is an attempt to centralize useful resources (code katas, workshops
 - [Untangled Conditionals Kata](https://github.com/ythirion/untangled-conditionals-kata)
 - [Elections](https://github.com/ythirion/scala-kata-logs/blob/main/ElectionsKata/README.md)
 - [Ugly trivia game](https://github.com/ythirion/pair-programming-kata)
-- [Trip service](https://github.com/ythirion/clean-crafter/blob/main/tripservice-kata/README.md)
+- [Trip service - refactoring with Seams](https://github.com/ythirion/clean-crafter/blob/main/tripservice-kata/README.md)
 - [Theatrical Players Kata](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/code-katas/theatrical-players-refactoring-kata)
 
 ### Mikado
