@@ -124,3 +124,24 @@ This journey is an attempt to centralize useful resources (code katas, workshops
 - [Aligning Product & Software Design](https://yoan-thirion.gitbook.io/knowledge-base/software-architecture/aligning-product-and-software-design)
 - [Domain Driven Design re-Distilled](https://yoan-thirion.gitbook.io/knowledge-base/software-architecture/ddd-re-distilled)
 - [How to start a Community Of Practices](https://yoan-thirion.gitbook.io/knowledge-base/agile-coaching/how-to-run-a-community-of-practices-cop)
+
+## My Book Infographics
+All my book infographics are available from [here](https://yoan-thirion.gitbook.io/knowledge-base/xtrem-reading/my-book-infographics)
+- `The Software Craftsman` by Sandro Mancuso
+- `Leadership is language` by David Marquet
+- `Culture is Everything` by Tristan White
+- `Samman Technical Coaching` by Emily Bache
+- `Leadership Strategy and Tactics: Field Manual` by Jocko Willink
+- `Software-Design X-Rays` by Adam Tornhill
+- `Succeeding with OKRs in Agile` by Allan Kelly
+- `Team Topologies` by Matthew Skelton, Manuel Pais
+- `Refactoring at Scale: Regaining Control of Your Codebase` by Maude Lemaire
+- `La Liberté du Commandement` par Loïc Finaz
+- `The programmer's brain` by Felienne Hermans
+- `Unit Testing Principles, Practices, and Patterns` by Vladimir Khorikov
+- `How to avoid a climate disaster` by Bill Gates
+- `Tu fais quoi dans la vie` by Joséphine Bouchez et Mathieu Dardaillon
+- `Une vie sur notre planète` by David Attenborough
+- `Code that Fits in Your Head` by Mark Seemann
+- `Software craft, TDD, Clean Code et autres pratiques essentielles` par Cyrille Martraire, Arnaud Thiéfaine, Dorra Bartaguiz, Fabien Hiegel, Houssam Fakih
+- `The Good Life - Ce que nous apprend la plus longue étude scientifique sur le bonheur et la santé` par Robert Waldinger, Marc M.D. Schulz
