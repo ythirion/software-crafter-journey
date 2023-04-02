@@ -44,7 +44,7 @@ This journey is an attempt to centralize useful resources (code katas, workshops
 - [Untangled Conditionals Kata](https://github.com/ythirion/untangled-conditionals-kata)
 - [Elections](https://github.com/ythirion/scala-kata-logs/blob/main/ElectionsKata/README.md)
 - [Ugly trivia game](https://github.com/ythirion/pair-programming-kata)
-- [Trip service](https://github.com/ythirion/clean-crafter/blob/main/tripservice-kata/README.md)
+- [Trip service - refactoring with Seams](https://github.com/ythirion/clean-crafter/blob/main/tripservice-kata/README.md)
 - [Theatrical Players Kata](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/code-katas/theatrical-players-refactoring-kata)
 
 ### Mikado
@@ -121,6 +121,10 @@ This journey is an attempt to centralize useful resources (code katas, workshops
 - [F# for OO Programmers](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/f-for-oo-programmers)
 - [Improve your test quality with Mutation testing](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/testing/mutation-testing)
 - [Software Design X-Rays](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/software-design-x-rays/workshop)
+- [50 shades of Dev Practices](https://speakerdeck.com/thirion/50-shades-of-dev-practices)
+- [Programmer's Brain](https://miro.com/app/board/o9J_l0DSaRQ=/?share_link_id=531195470496)
+- [Cultivate Team Learning with Xtrem Reading](https://yoan-thirion.gitbook.io/knowledge-base/xtrem-reading/cultivate-team-learning-with-xtrem-reading)
+- [Libérez vos entretiens d’embauche avec la gamification](https://yoan-thirion.gitbook.io/knowledge-base/serious-games/craftsminator)
 - [Programmer's Brain - What every programmer needs to know about cognition](https://miro.com/app/board/o9J_l0DSaRQ=/?share_link_id=531195470496)
 - [Developer Ethics](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/practices/dev-ethics)
 - [Co-designs - From high level Architecture to Solution Design by working collaboratively](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/practices/co-designs)
@@ -129,7 +133,9 @@ This journey is an attempt to centralize useful resources (code katas, workshops
 - [Fundamentals of Software Architecture](https://yoan-thirion.gitbook.io/knowledge-base/software-architecture/fundamentals-of-software-architecture)
 - [Aligning Product & Software Design](https://yoan-thirion.gitbook.io/knowledge-base/software-architecture/aligning-product-and-software-design)
 - [Domain Driven Design re-Distilled](https://yoan-thirion.gitbook.io/knowledge-base/software-architecture/ddd-re-distilled)
+- [Xanpan - a team centric agile method story](https://yoan-thirion.gitbook.io/knowledge-base/agile-coaching/xanpan-a-team-centric-agile-method-story)
 - [How to start a Community Of Practices](https://yoan-thirion.gitbook.io/knowledge-base/agile-coaching/how-to-run-a-community-of-practices-cop)
+- [Drive and Intrinsic motivation](https://speakerdeck.com/thirion/drive-and-intrinsic-motivation-a-toolkit-for-todays-managers)
 
 ## My Book Infographics
 All my book infographics are available from [here](https://yoan-thirion.gitbook.io/knowledge-base/xtrem-reading/my-book-infographics)
