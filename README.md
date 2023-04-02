@@ -3,6 +3,31 @@ This journey is an attempt to centralize useful resources (code katas, workshops
 
 ![Software Crafter Journery](crafter-journey.webp)
 
+## Table of Contents
+- [Fundamentals](#fundamentals)
+- [Test-Driven Development (aka T.D.D)](#test-driven-development--aka-tdd-)
+  - [Prerequisites](#prerequisites)
+  - [Basic](#basic)
+  - [Designing with TDD](#designing-with-tdd)
+  - [TDD on algorithms](#tdd-on-algorithms)
+  - [Outside-In TDD](#outside-in-tdd)
+  - [Test && Commit || Revert (aka TCR)](#test--commit--revert--aka-tcr-)
+- [Legacy code refactoring](#legacy-code-refactoring)
+  - [Mikado](#mikado)
+- [Clean Testing](#clean-testing)
+  - [Fluent Assertions](#fluent-assertions)
+  - [Approval Testing](#approval-testing)
+  - [Test Data Builders](#test-data-builders)
+- [Functional Programming (FP)](#functional-programming--fp-)
+  - [Baby steps to FP](#baby-steps-to-fp)
+  - [Property-Based Testing (PBT)](#property-based-testing--pbt-)
+  - [Bonus](#bonus)
+- [Design](#design)
+  - [Specification Pattern](#specification-pattern)
+- [All in one - Xtrem T.D.D](#all-in-one---xtrem-tdd)
+- [Other Resources](#other-resources)
+- [My Book Infographics](#my-book-infographics)
+
 ## Fundamentals
 - [What is software craftsmanship?](https://miro.com/app/board/uXjVPjg5-ks=/?share_link_id=130260708635)
   - [Egoless Crafting](https://egolesscrafting.org/)
@@ -14,6 +39,9 @@ This journey is an attempt to centralize useful resources (code katas, workshops
 - [Mob Programming](https://github.com/ythirion/mob-programming-kata)
 
 ## Test-Driven Development (aka T.D.D)
+T.D.D categories are inspired by [Philippe Bourgau's Mind Map](https://philippe.bourgau.net/a-coding-dojo-exercises-plan-towards-refactoring-legacy-code/).
+
+### Prerequisites
 - [Generate Code From Usage](https://github.com/katalogs/learning-hours/blob/main/generate-code-from-usage/Facilitation.md)
 
 ### Basic
@@ -84,13 +112,13 @@ This journey is an attempt to centralize useful resources (code katas, workshops
 - [Monads (Try, Either)](https://github.com/katalogs/learning-hours/blob/main/functional-programming/4-monads-part2/Facilitation.md)
 - [FP in Real Life](https://github.com/katalogs/learning-hours/blob/main/functional-programming/5-real-life-example/Facilitation.md)
 
-#### Bonus
-- [Discriminated Unions](https://github.com/katalogs/learning-hours/blob/main/functional-programming/6-discriminated-unions/Facilitation.md)	
-
 ### Property-Based Testing (PBT)
 - [A Journey to Property-Based Testing](https://github.com/ythirion/journey-to-property-based-testing)
 - [Bulletproof your code with "Mutation-Based Property-Driven Development"](https://github.com/ythirion/nir-kata)
 - [Type-Driven Development with PBT](https://github.com/ythirion/snafu-kata)
+
+### Bonus
+- [Discriminated Unions](https://github.com/katalogs/learning-hours/blob/main/functional-programming/6-discriminated-unions/Facilitation.md)
 
 ## Design
 - [DDD / Clean Architecture / Tell don't ask Kata](https://github.com/les-tontons-crafters/tell-dont-ask-kata)
