@@ -1,6 +1,8 @@
 # Software Crafter Journey
 This journey is an attempt to centralize useful resources (code katas, workshops, talks) that can help aspiring Software Craftsperson in their Journey.
 
+![Software Crafter Journery](crafter-journey.webp)
+
 ## Fundamentals
 - [What is software craftsmanship?](https://miro.com/app/board/uXjVPjg5-ks=/?share_link_id=130260708635)
   - [Egoless Crafting](https://egolesscrafting.org/)
