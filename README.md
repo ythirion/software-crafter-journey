@@ -11,7 +11,7 @@ This journey is an attempt to centralize useful resources (code kata, workshops,
   - [Prerequisites](#prerequisites)
   - [Fundamentals](#fundamentals-1)
   - [Test Data Builders](#test-data-builders)
-  - [Property-Based Testing (PBT)](#property-based-testing)
+  - [Property-Based Testing](#property-based-testing)
   - [Other topics](#other-topics)
 - [Solution Design](#solution-design)
   - [Test-Driven Development](#test-driven-development)
@@ -22,9 +22,9 @@ This journey is an attempt to centralize useful resources (code kata, workshops,
   - [Mikado](#mikado)
 - [CI / CD](#ci--cd)
 - [Collective Ownership](#collective-ownership)
-
 - [Other Resources](#other-resources)
   - [Xtrem T.D.D - All in one kata](#xtrem-tdd---all-in-one-kata)
+  - [Talks and Workshops](#talks-and-workshops)
   - [My Book Infographics](#my-book-infographics)
 
 ## Self-assessment
