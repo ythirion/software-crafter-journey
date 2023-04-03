@@ -1,73 +1,160 @@
 # Software Crafter Journey
-This journey is an attempt to centralize useful resources (code katas, workshops, talks) that can help aspiring Software Craftsperson in their Journey.
+This journey is an attempt to centralize useful resources (code kata, workshops, talks) that can help aspiring Software Craftsperson in their Journey.
 
-![Software Crafter Journery](crafter-journey.webp)
+![Software Crafter Journey](img/crafter-journey.webp)
 
 ## Table of Contents
-- [Fundamentals](#fundamentals)
-- [Test-Driven Development (aka T.D.D)](#test-driven-development-aka-tdd)
-  - [Prerequisites](#prerequisites)
-  - [Basic](#basic)
-  - [Designing with TDD](#designing-with-tdd)
-  - [TDD on algorithms](#tdd-on-algorithms)
-  - [Outside-In TDD](#outside-in-tdd)
-  - [Test && Commit || Revert (aka TCR)](#test--commit--revert-aka-tcr)
-- [Legacy code refactoring](#legacy-code-refactoring)
-  - [Mikado](#mikado)
+- [Self-assessment](#self-assessment)
+- [Clean Code](#clean-code)
+  - [Functional Programming](#functional-programming)
 - [Clean Testing](#clean-testing)
-  - [Fluent Assertions](#fluent-assertions)
-  - [Approval Testing](#approval-testing)
+  - [Prerequisites](#prerequisites)
+  - [Fundamentals](#fundamentals-1)
   - [Test Data Builders](#test-data-builders)
-- [Functional Programming (FP)](#functional-programming-fp)
-  - [Baby steps to FP](#baby-steps-to-fp)
-  - [Property-Based Testing (PBT)](#property-based-testing-pbt)
-  - [Bonus](#bonus)
-- [Design](#design)
-  - [Specification Pattern](#specification-pattern)
-- [All in one - Xtrem T.D.D](#all-in-one---xtrem-tdd)
-- [Other Resources](#other-resources)
-- [My Book Infographics](#my-book-infographics)
+  - [Property-Based Testing (PBT)](#property-based-testing)
+  - [Other topics](#other-topics)
+- [Solution Design](#solution-design)
+  - [Test-Driven Development](#test-driven-development)
+  - [Software Architecture](#software-architecture)
+- [Refactoring / Technical Debt Management](#refactoring--technical-debt-management)
+  - [What is Technical Debt](#what-is-technical-debt)
+  - [Legacy Code Refactoring](#legacy-code-refactoring)
+  - [Mikado](#mikado)
+- [CI / CD](#ci--cd)
+- [Collective Ownership](#collective-ownership)
 
-## Fundamentals
+- [Other Resources](#other-resources)
+  - [Xtrem T.D.D - All in one kata](#xtrem-tdd---all-in-one-kata)
+  - [My Book Infographics](#my-book-infographics)
+
+## Self-assessment
+You can drive continuous improvement within your team by using a `self-assessment` tool like the one described here.
+
+There is one category for each big craft topic I have selected.
+
+[![Craft Self Assessment](img/craft-self-assessment.jpg)](files/craft-self-assessment.pdf)
+
+When I start to work with a new team, I use this tool to align team members on the current situation of the team. 
+For each card, each individual can express their point of views on the topic by:
+- `Choosing` which color represents the most the team situation
+- `Expressing` their findings on it
+- `Exploring` improvement areas
+- `Defining` experiment actions
+
+We can design new cards with the team based on categories they want to improve in.
+
+We then use those cards to measure the improvement of the team in time, and the impact of my `agile technical coaching`.
+I use those cards to categorize the below resources. I use them to teach and coach teams on those different axis.
+
+You can download those cards [here](files/craft-self-assessment.pdf).
+
+### Fundamentals
 - [What is software craftsmanship?](https://miro.com/app/board/uXjVPjg5-ks=/?share_link_id=130260708635)
   - [Egoless Crafting](https://egolesscrafting.org/)
-- [Crappy-Driven Development - Clean Code](https://github.com/ythirion/crappy-driven-development/)
-- [S.O.L.I.D principles](https://github.com/ythirion/solid-kata)
-- [How to write Unit Tests](https://github.com/ythirion/unit-tests-intro)
-- [Pair Programming](https://github.com/ythirion/pair-programming-kata)
-- [Code Review Best Practices](https://github.com/ythirion/code-review)
-- [Mob Programming](https://github.com/ythirion/mob-programming-kata)
 
-## Test-Driven Development (aka T.D.D)
-T.D.D categories are inspired by [Philippe Bourgau's Mind Map](https://philippe.bourgau.net/a-coding-dojo-exercises-plan-towards-refactoring-legacy-code/).
+## Clean Code
+![Clean Code](img/clean-code.png)
+- [Crappy-Driven Development](https://github.com/ythirion/crappy-driven-development/)
+- [S.O.L.I.D principles](https://github.com/ythirion/solid-kata)
+- [Programmer's Brain - What every programmer needs to know about cognition](https://miro.com/app/board/o9J_l0DSaRQ=/?share_link_id=531195470496)
+
+### Functional Programming
+- [Design Patterns in FP](https://github.com/ythirion/scala-fp-guidelines)
+- [Functional Programming made easy in Java & C#](https://speakerdeck.com/thirion/functional-programming-made-easy-in-java-and-c-number)
+  - [java with vavr](https://github.com/ythirion/vavr-kata)
+  - [C# with Language-Ext](https://github.com/ythirion/language-ext-kata)
+- [FP 101 on the JVM](https://github.com/ythirion/fp101)
+- [Kotlin for java refugees](https://ythirion.github.io/kotlin-for-java-refugees/)
+- [F# for OO Programmers](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/f-for-oo-programmers)
+
+#### Baby steps to FP
+- [Pure Functions](https://github.com/katalogs/learning-hours/blob/main/functional-programming/1-pure-functions/Facilitation.md)
+- [Functors](https://github.com/katalogs/learning-hours/blob/main/functional-programming/2-functors/Facilitation.md)
+- [Monads (Option)](https://github.com/katalogs/learning-hours/blob/main/functional-programming/3-monads-part1/Facilitation.md)
+- [Monads (Try, Either)](https://github.com/katalogs/learning-hours/blob/main/functional-programming/4-monads-part2/Facilitation.md)
+- [FP in Real Life](https://github.com/katalogs/learning-hours/blob/main/functional-programming/5-real-life-example/Facilitation.md)
+- [Discriminated Unions](https://github.com/katalogs/learning-hours/blob/main/functional-programming/6-discriminated-unions/Facilitation.md)
+
+## Clean Testing
+![Clean Testing](img/clean-testing.png)
 
 ### Prerequisites
+- [How to write Unit Tests](https://github.com/ythirion/unit-tests-intro)
 - [Generate Code From Usage](https://github.com/katalogs/learning-hours/blob/main/generate-code-from-usage/Facilitation.md)
 
-### Basic
+### Fundamentals
+- [Anatomy of Unit Tests](https://github.com/katalogs/learning-hours/blob/main/clean-testing/1-test-anatomy/Facilitation.md)
+- [Test Doubles](https://github.com/katalogs/learning-hours/blob/main/clean-testing/4-test-doubles/Facilitation.md)
+- [Parameterized Tests](https://github.com/katalogs/learning-hours/blob/main/clean-testing/5-parameterized-tests/Facilitation.md)
+- [Styles of Unit Tests](https://github.com/katalogs/learning-hours/blob/main/clean-testing/6-styles-of-unit-tests/Facilitation.md)
+- [The hunt for anti-patterns](https://github.com/katalogs/learning-hours/blob/main/clean-testing/7-anti-patterns/Facilitation.md)
+- [The hunt for 100% code coverage](https://github.com/katalogs/learning-hours/blob/main/clean-testing/8-hunt-to-100percent-coverage/Facilitation.md)
+
+### Test Data Builders
+- [Refactoring test inputs with Test Data Builders](https://github.com/katalogs/learning-hours/blob/main/test-data-builders/refactoring-test-inputs-with-test-data-builders/Facilitation.md)
+- [Business oriented Test Data Builders](https://github.com/katalogs/learning-hours/blob/main/test-data-builders/business-oriented-test-data-builders/Facilitation.md)
+
+### Property-Based Testing
+- [A Journey to Property-Based Testing](https://github.com/ythirion/journey-to-property-based-testing)
+- [Bulletproof your code with "Mutation-Based Property-Driven Development"](https://github.com/ythirion/nir-kata)
+- [Type-Driven Development with PBT](https://github.com/ythirion/snafu-kata)
+
+### Other topics
+- [AssertJ in practice](https://github.com/ythirion/assertj-kata)
+- [Approval Testing in C#](https://github.com/ythirion/approval-csharp-kata)
+- [Improve your test quality with Mutation testing](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/testing/mutation-testing)
+
+## Solution Design
+![Solution Design](img/solution-design.png)
+
+### Test-Driven Development
+T.D.D categories are inspired by [Philippe Bourgau's Mind Map](https://philippe.bourgau.net/a-coding-dojo-exercises-plan-towards-refactoring-legacy-code/).
+
+#### Basic
 - [FizzBuzz](https://github.com/ythirion/fizzbuzz-kata)
 - [Stack](https://github.com/ythirion/stack-kata)
 - [Bowling](https://github.com/ythirion/scala-kata-logs/blob/main/BowlingKata/README.md)
 - [Roman Numerals](https://github.com/ythirion/clean-crafter/blob/main/tdd-kata/README.md)
 
-### Designing with TDD
+#### Designing with TDD
 - [Money Problem](https://github.com/ythirion/TDD-money-problem)
 - [Yatzee](https://github.com/ythirion/scala-kata-logs/tree/main/YahtzeeKata)
 - [Mars Rover](https://github.com/ythirion/scala-kata-logs/blob/main/MarsRoverKata/README.md)
 
-### TDD on algorithms
+#### TDD on algorithms
 - [Diamond](https://github.com/ythirion/scala-kata-logs/blob/main/DiamondKata/README.md)
 - [Lags](https://github.com/ythirion/scala-kata-logs/blob/main/LagsKata/README.md)
 
-### Outside-In TDD
+#### Outside-In TDD
 - [Bank Kata](https://github.com/ythirion/bank-kata)
 
-### Test && Commit || Revert (aka TCR)
+#### Test && Commit || Revert (aka TCR)
 - [Submarine kata](https://github.com/les-tontons-crafters/submarine-tcr)
 
-## Legacy code refactoring
+### Software Architecture
+- [Domain Driven Design re-Distilled](https://yoan-thirion.gitbook.io/knowledge-base/software-architecture/ddd-re-distilled)
+- [DDD / Clean Architecture / Tell don't ask Kata](https://github.com/les-tontons-crafters/tell-dont-ask-kata)
+- [Test your Architecture with ArchUnit](https://github.com/ythirion/archunit-examples)
+- [Improve the design and testing of your micro-services through Consumer-Driven Contract Testing](https://github.com/ythirion/pact-jvm-demo)
+- [Co-designs - From high level Architecture to Solution Design by working collaboratively](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/practices/co-designs)
+- [Design sessions - Collaborative Design](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/practices/design-sessions)
+- [How to Interview Domain Experts](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/practices/interview-domain-experts)
+- [Fundamentals of Software Architecture](https://yoan-thirion.gitbook.io/knowledge-base/software-architecture/fundamentals-of-software-architecture)
+- [Aligning Product & Software Design](https://yoan-thirion.gitbook.io/knowledge-base/software-architecture/aligning-product-and-software-design)
+
+#### Specification Pattern
+- [Discover the Specification Pattern](https://github.com/katalogs/learning-hours/blob/main/specification-pattern/discover-specification-pattern/Facilitation.md)
+- [Specification Pattern 2.0](https://github.com/katalogs/learning-hours/blob/main/specification-pattern/specification-2.0/Facilitation.md)
+
+## Refactoring / Technical Debt Management
+![Refactoring and Technical Debt Management](img/refactoring+tech-debt-management.png)
+
+### What is Technical Debt
+- [Technical Debt Workshop](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/technical-debt-workshop)
+
+### Legacy Code Refactoring
 - [Refactoring journey](https://github.com/ythirion/refactoring-journey)
-- [Gilded Rose](https://github.com/ythirion/scala-kata-logs/blob/main/GildedRoseKata/README.md)
+- [Gilded Rose - with Approval Testing](https://github.com/ythirion/scala-kata-logs/blob/main/GildedRoseKata/README.md)
 - [Yatzy](https://github.com/ythirion/scala-kata-logs/tree/main/YatzyRefactoringKata)
 - [Untangled Conditionals Kata](https://github.com/ythirion/untangled-conditionals-kata)
 - [Elections](https://github.com/ythirion/scala-kata-logs/blob/main/ElectionsKata/README.md)
@@ -79,57 +166,19 @@ T.D.D categories are inspired by [Philippe Bourgau's Mind Map](https://philippe.
 - [Mikado kata](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/code-katas/mikado-method)
 - [Mikado Method and Test Data Builders](https://github.com/ythirion/mikado-testbuilders-kata)
 
-## Clean Testing
-- [Anatomy of Unit Tests](https://github.com/katalogs/learning-hours/blob/main/clean-testing/1-test-anatomy/Facilitation.md)
-- [Test Doubles](https://github.com/katalogs/learning-hours/blob/main/clean-testing/4-test-doubles/Facilitation.md)
-- [Parameterized Tests](https://github.com/katalogs/learning-hours/blob/main/clean-testing/5-parameterized-tests/Facilitation.md)
-- [Styles of Unit Tests](https://github.com/katalogs/learning-hours/blob/main/clean-testing/6-styles-of-unit-tests/Facilitation.md)
-- [The hunt for anti-patterns](https://github.com/katalogs/learning-hours/blob/main/clean-testing/7-anti-patterns/Facilitation.md)
-- [The hunt for 100% code coverage](https://github.com/katalogs/learning-hours/blob/main/clean-testing/8-hunt-to-100percent-coverage/Facilitation.md)
+## CI / CD
+![CI/CD](img/ci-cd.png)
 
-### Fluent Assertions
-- [AssertJ in practice](https://github.com/ythirion/assertj-kata)
+## Collective Ownership
+![Collective Ownership](img/collective-ownership.png)
+- [Pair Programming](https://github.com/ythirion/pair-programming-kata)
+- [Code Review Best Practices](https://github.com/ythirion/code-review)
+- [Mob Programming](https://github.com/ythirion/mob-programming-kata)
+- [How to start a Community Of Practices](https://yoan-thirion.gitbook.io/knowledge-base/agile-coaching/how-to-run-a-community-of-practices-cop)
+- [Cultivate Team Learning with Xtrem Reading](https://yoan-thirion.gitbook.io/knowledge-base/xtrem-reading/cultivate-team-learning-with-xtrem-reading)
 
-### Approval Testing
-- [Approval Testing in C#](https://github.com/ythirion/approval-csharp-kata)
-
-### Test Data Builders
-- [Refactoring test inputs with Test Data Builders](https://github.com/katalogs/learning-hours/blob/main/test-data-builders/refactoring-test-inputs-with-test-data-builders/Facilitation.md)
-- [Business oriented Test Data Builders](https://github.com/katalogs/learning-hours/blob/main/test-data-builders/business-oriented-test-data-builders/Facilitation.md)
-
-## Functional Programming (FP)
-- [Design Patterns in FP](https://github.com/ythirion/scala-fp-guidelines)
-- [Functional Programming made easy in Java & C#](https://speakerdeck.com/thirion/functional-programming-made-easy-in-java-and-c-number)
-	- [java with vavr](https://github.com/ythirion/vavr-kata)
-	- [C# with Language-Ext](https://github.com/ythirion/language-ext-kata)
-- [FP 101 on the JVM](https://github.com/ythirion/fp101)
-- [Kotlin for java refugees](https://ythirion.github.io/kotlin-for-java-refugees/)
-
-### Baby steps to FP
-- [Pure Functions](https://github.com/katalogs/learning-hours/blob/main/functional-programming/1-pure-functions/Facilitation.md)
-- [Functors](https://github.com/katalogs/learning-hours/blob/main/functional-programming/2-functors/Facilitation.md)
-- [Monads (Option)](https://github.com/katalogs/learning-hours/blob/main/functional-programming/3-monads-part1/Facilitation.md)
-- [Monads (Try, Either)](https://github.com/katalogs/learning-hours/blob/main/functional-programming/4-monads-part2/Facilitation.md)
-- [FP in Real Life](https://github.com/katalogs/learning-hours/blob/main/functional-programming/5-real-life-example/Facilitation.md)
-
-### Property-Based Testing (PBT)
-- [A Journey to Property-Based Testing](https://github.com/ythirion/journey-to-property-based-testing)
-- [Bulletproof your code with "Mutation-Based Property-Driven Development"](https://github.com/ythirion/nir-kata)
-- [Type-Driven Development with PBT](https://github.com/ythirion/snafu-kata)
-
-### Bonus
-- [Discriminated Unions](https://github.com/katalogs/learning-hours/blob/main/functional-programming/6-discriminated-unions/Facilitation.md)
-
-## Design
-- [DDD / Clean Architecture / Tell don't ask Kata](https://github.com/les-tontons-crafters/tell-dont-ask-kata)
-- [Test your Architecture with ArchUnit](https://github.com/ythirion/archunit-examples)
-- [Improve the design and testing of your micro-services through Consumer-Driven Contract Testing](https://github.com/ythirion/pact-jvm-demo)
-
-### Specification Pattern
-- [Discover the Specification Pattern](https://github.com/katalogs/learning-hours/blob/main/specification-pattern/discover-specification-pattern/Facilitation.md)
-- [Specification Pattern 2.0](https://github.com/katalogs/learning-hours/blob/main/specification-pattern/specification-2.0/Facilitation.md)
-
-## All in one - Xtrem T.D.D
+## Other Resources
+### Xtrem T.D.D - All in one kata
 [Xtrem T.D.D](https://github.com/les-tontons-crafters/submarine-tcr) is a kata that demonstrates a lot of craft practices:
 - [Mutation Testing](https://github.com/les-tontons-crafters/xtrem-tdd-money-kata/blob/main/docs/facilitation/01.mutation-testing.md)
 - [T.D.D from scratch](https://github.com/les-tontons-crafters/xtrem-tdd-money-kata/blob/main/docs/facilitation/02.portfolio.md)
@@ -144,28 +193,15 @@ T.D.D categories are inspired by [Philippe Bourgau's Mind Map](https://philippe.
 - [Acceptance Testing](https://github.com/les-tontons-crafters/xtrem-tdd-money-kata/blob/main/docs/facilitation/11.acceptance-tests.md)
 - [Functional Core, Imperative Shell](https://github.com/les-tontons-crafters/xtrem-tdd-money-kata/blob/main/docs/facilitation/12.functional-core-imperative-shell.md)
 
-## Other Resources
-- [Technical Debt Workshop](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/technical-debt-workshop)
-- [F# for OO Programmers](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/f-for-oo-programmers)
-- [Improve your test quality with Mutation testing](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/testing/mutation-testing)
+### Talks and Workshops
 - [Software Design X-Rays](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/software-design-x-rays/workshop)
 - [50 shades of Dev Practices](https://speakerdeck.com/thirion/50-shades-of-dev-practices)
-- [Programmer's Brain](https://miro.com/app/board/o9J_l0DSaRQ=/?share_link_id=531195470496)
-- [Cultivate Team Learning with Xtrem Reading](https://yoan-thirion.gitbook.io/knowledge-base/xtrem-reading/cultivate-team-learning-with-xtrem-reading)
 - [Libérez vos entretiens d’embauche avec la gamification](https://yoan-thirion.gitbook.io/knowledge-base/serious-games/craftsminator)
-- [Programmer's Brain - What every programmer needs to know about cognition](https://miro.com/app/board/o9J_l0DSaRQ=/?share_link_id=531195470496)
 - [Developer Ethics](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/practices/dev-ethics)
-- [Co-designs - From high level Architecture to Solution Design by working collaboratively](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/practices/co-designs)
-- [Design sessions - Collaborative Design](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/practices/design-sessions)
-- [How to Interview Domain Experts](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/practices/interview-domain-experts)
-- [Fundamentals of Software Architecture](https://yoan-thirion.gitbook.io/knowledge-base/software-architecture/fundamentals-of-software-architecture)
-- [Aligning Product & Software Design](https://yoan-thirion.gitbook.io/knowledge-base/software-architecture/aligning-product-and-software-design)
-- [Domain Driven Design re-Distilled](https://yoan-thirion.gitbook.io/knowledge-base/software-architecture/ddd-re-distilled)
 - [Xanpan - a team centric agile method story](https://yoan-thirion.gitbook.io/knowledge-base/agile-coaching/xanpan-a-team-centric-agile-method-story)
-- [How to start a Community Of Practices](https://yoan-thirion.gitbook.io/knowledge-base/agile-coaching/how-to-run-a-community-of-practices-cop)
 - [Drive and Intrinsic motivation](https://speakerdeck.com/thirion/drive-and-intrinsic-motivation-a-toolkit-for-todays-managers)
 
-## My Book Infographics
+### My Book Infographics
 All my book infographics are available from [here](https://yoan-thirion.gitbook.io/knowledge-base/xtrem-reading/my-book-infographics)
 - `The Software Craftsman` by Sandro Mancuso
 - `Leadership is language` by David Marquet
