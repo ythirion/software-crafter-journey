@@ -168,6 +168,8 @@ T.D.D categories are inspired by [Philippe Bourgau's Mind Map](https://philippe.
 
 ## CI / CD
 ![CI/CD](img/ci-cd.png)
+- [CI / CD Principles](https://github.com/ythirion/ci-cd)
+- [Software Design X-Rays](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/software-design-x-rays/workshop)
 
 ## Collective Ownership
 ![Collective Ownership](img/collective-ownership.png)
@@ -194,7 +196,6 @@ T.D.D categories are inspired by [Philippe Bourgau's Mind Map](https://philippe.
 - [Functional Core, Imperative Shell](https://github.com/les-tontons-crafters/xtrem-tdd-money-kata/blob/main/docs/facilitation/12.functional-core-imperative-shell.md)
 
 ### Talks and Workshops
-- [Software Design X-Rays](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/software-design-x-rays/workshop)
 - [50 shades of Dev Practices](https://speakerdeck.com/thirion/50-shades-of-dev-practices)
 - [Libérez vos entretiens d’embauche avec la gamification](https://yoan-thirion.gitbook.io/knowledge-base/serious-games/craftsminator)
 - [Developer Ethics](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/practices/dev-ethics)
