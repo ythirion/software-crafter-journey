@@ -202,6 +202,9 @@ T.D.D categories are inspired by [Philippe Bourgau's Mind Map](https://philippe.
 - [Xanpan - a team centric agile method story](https://yoan-thirion.gitbook.io/knowledge-base/agile-coaching/xanpan-a-team-centric-agile-method-story)
 - [Drive and Intrinsic motivation](https://speakerdeck.com/thirion/drive-and-intrinsic-motivation-a-toolkit-for-todays-managers)
 
+### Articles
+- [The SPACE of Developer Productivity](https://queue.acm.org/detail.cfm?id=3454124)
+
 ### My Book Infographics
 All my book infographics are available from [here](https://yoan-thirion.gitbook.io/knowledge-base/xtrem-reading/my-book-infographics)
 - `The Software Craftsman` by Sandro Mancuso
