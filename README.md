@@ -155,6 +155,7 @@ T.D.D categories are inspired by [Philippe Bourgau's Mind Map](https://philippe.
 ### Legacy Code Refactoring
 - [Refactoring journey](https://github.com/ythirion/refactoring-journey)
 - [Gilded Rose - with Approval Testing](https://github.com/ythirion/scala-kata-logs/blob/main/GildedRoseKata/README.md)
+- [Refactoring by Example](https://github.com/les-tontons-crafters/tell-dont-ask-kata)
 - [Yatzy](https://github.com/ythirion/scala-kata-logs/tree/main/YatzyRefactoringKata)
 - [Untangled Conditionals Kata](https://github.com/ythirion/untangled-conditionals-kata)
 - [Elections](https://github.com/ythirion/scala-kata-logs/blob/main/ElectionsKata/README.md)
