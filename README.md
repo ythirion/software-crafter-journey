@@ -86,7 +86,7 @@ You can download those cards [here](files/craft-self-assessment.pdf).
 - [Anatomy of Unit Tests](https://github.com/katalogs/learning-hours/blob/main/clean-testing/1-test-anatomy/Facilitation.md)
 - [Test Doubles](https://github.com/katalogs/learning-hours/blob/main/clean-testing/4-test-doubles/Facilitation.md)
 - [Parameterized Tests](https://github.com/katalogs/learning-hours/blob/main/clean-testing/5-parameterized-tests/Facilitation.md)
-- [Styles of Unit Tests](https://github.com/katalogs/learning-hours/blob/main/clean-testing/6-styles-of-unit-tests/Facilitation.md)
+- [Styles of Unit Tests](https://sammancoaching.org/learning_hours/test_design/styles_of_unit_tests.html)
 - [The hunt for anti-patterns](https://github.com/katalogs/learning-hours/blob/main/clean-testing/7-anti-patterns/Facilitation.md)
 - [The hunt for 100% code coverage](https://github.com/katalogs/learning-hours/blob/main/clean-testing/8-hunt-to-100percent-coverage/Facilitation.md)
 
