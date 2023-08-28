@@ -196,6 +196,31 @@ T.D.D categories are inspired by [Philippe Bourgau's Mind Map](https://philippe.
 - [Acceptance Testing](https://github.com/les-tontons-crafters/xtrem-tdd-money-kata/blob/main/docs/facilitation/11.acceptance-tests.md)
 - [Functional Core, Imperative Shell](https://github.com/les-tontons-crafters/xtrem-tdd-money-kata/blob/main/docs/facilitation/12.functional-core-imperative-shell.md)
 
+### Refactoring du Bouchonnois - All in one kata
+Toutes les instructions [ici](https://github.com/ythirion/refactoring-du-bouchonnois).
+
+![Refactoring du Bouchonnois](https://raw.githubusercontent.com/ythirion/refactoring-du-bouchonnois/main/img/refactoring-du-bouchonnois.webp)
+
+À travers les différentes étapes présentes dans ce kata voici les sujets couverts :
+- Example Mapping
+- Static Code Analysis / Linter
+- Treat Warnings as Errors
+- Mutation Testing
+- Test Data Builders
+- Approval Testing
+- Automated Refactoring
+- Property-Based Testing
+- Tests d'Architecture
+- Test-Driven Development
+- Clean Architecture
+- Domain Driven Design
+- Tell Don't Ask
+- Functional Programming
+- Avoid Primitives
+- Avoid Exceptions
+- Architecture Decision Records
+- Event Sourcing
+
 ### Talks and Workshops
 - [50 shades of Dev Practices](https://speakerdeck.com/thirion/50-shades-of-dev-practices)
 - [Libérez vos entretiens d’embauche avec la gamification](https://yoan-thirion.gitbook.io/knowledge-base/serious-games/craftsminator)
