@@ -182,7 +182,7 @@ T.D.D categories are inspired by [Philippe Bourgau's Mind Map](https://philippe.
 
 ## Other Resources
 ### Xtrem T.D.D - All in one kata
-[Xtrem T.D.D](https://github.com/les-tontons-crafters/submarine-tcr) is a kata that demonstrates a lot of craft practices:
+[Xtrem T.D.D](https://github.com/les-tontons-crafters/xtrem-tdd-money-kata/) is a kata that demonstrates a lot of craft practices:
 - [Mutation Testing](https://github.com/les-tontons-crafters/xtrem-tdd-money-kata/blob/main/docs/facilitation/01.mutation-testing.md)
 - [T.D.D from scratch](https://github.com/les-tontons-crafters/xtrem-tdd-money-kata/blob/main/docs/facilitation/02.portfolio.md)
 - [Fight Primitive Obsession / T.D.D on existing code](https://github.com/les-tontons-crafters/xtrem-tdd-money-kata/blob/main/docs/facilitation/03.no-primitive-types.md)
