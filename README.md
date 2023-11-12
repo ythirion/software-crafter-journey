@@ -248,11 +248,14 @@ All my book infographics are available from [here](https://yoan-thirion.gitbook.
 - `Code that Fits in Your Head` by Mark Seemann
 - `Software craft, TDD, Clean Code et autres pratiques essentielles` par Cyrille Martraire, Arnaud Thiéfaine, Dorra Bartaguiz, Fabien Hiegel, Houssam Fakih
 - `The Good Life - Ce que nous apprend la plus longue étude scientifique sur le bonheur et la santé` par Robert Waldinger, Marc M.D. Schulz
+- `Dynamic Reteaming - The Art and Wisdom of Changing Teams` by Heidi Helfand
+- `Réaliser ses rêves, ça s'apprend` par Thomas Gibot 
 
 ### Useful Resources
 - [Philippe Bourgau's Blog](https://philippe.bourgau.net/)
 - [Understand Legacy Code Blog by Nicolas Carlo](https://understandlegacycode.com/)
 - [Dantotsu method: from bug to best practice](https://www.promyze.com/dantotsu-best-practices/)
+- [Une alternative au concept de dette logicielle](https://medium.com/@tpierrain/une-alternative-au-concept-de-dette-logicielle-68bb1e16842c)
 
 #### Developer's Productivity
 - [The SPACE of Developer Productivity](https://queue.acm.org/detail.cfm?id=3454124)
