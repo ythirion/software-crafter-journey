@@ -253,6 +253,7 @@ All my book infographics are available from [here](https://yoan-thirion.gitbook.
 
 ### Useful Resources
 - [Philippe Bourgau's Blog](https://philippe.bourgau.net/)
+- [TDD Outcomes - The Good and The Bad](files/tdd-outcomes.pdf)
 - [Understand Legacy Code Blog by Nicolas Carlo](https://understandlegacycode.com/)
 - [Dantotsu method: from bug to best practice](https://www.promyze.com/dantotsu-best-practices/)
 - [Une alternative au concept de dette logicielle](https://medium.com/@tpierrain/une-alternative-au-concept-de-dette-logicielle-68bb1e16842c)
