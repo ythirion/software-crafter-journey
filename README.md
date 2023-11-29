@@ -221,8 +221,16 @@ Toutes les instructions [ici](https://github.com/ythirion/refactoring-du-bouchon
 - Architecture Decision Records
 - Event Sourcing
 
+### Advent Of Craft 2023
+25 challenges to learn and practice craft techniques.
+
+More infos [here](https://github.com/advent-of-craft/advent-of-craft).
+
+![Advent Of Craft](img/advent-of-craft.png)
+
 ### Talks and Workshops
 - [50 shades of Dev Practices](https://speakerdeck.com/thirion/50-shades-of-dev-practices)
+- [Clean Code du point de vue de la Cognition](https://speakerdeck.com/thirion/clean-code-du-point-de-vue-de-la-cognition)
 - [Libérez vos entretiens d’embauche avec la gamification](https://yoan-thirion.gitbook.io/knowledge-base/serious-games/craftsminator)
 - [Developer Ethics](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/practices/dev-ethics)
 - [Xanpan - a team centric agile method story](https://yoan-thirion.gitbook.io/knowledge-base/agile-coaching/xanpan-a-team-centric-agile-method-story)
