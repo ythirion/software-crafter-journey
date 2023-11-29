@@ -24,6 +24,8 @@ This journey is an attempt to centralize useful resources (code kata, workshops,
 - [Collective Ownership](#collective-ownership)
 - [Other Resources](#other-resources)
   - [Xtrem T.D.D - All in one kata](#xtrem-tdd---all-in-one-kata)
+  - [Refactoring du Bouchonnois](#refactoring-du-bouchonnois---all-in-one-kata)
+  - [Advent Of Craft](#advent-of-craft-2023)
   - [Talks and Workshops](#talks-and-workshops)
   - [My Book Infographics](#my-book-infographics)
 
