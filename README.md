@@ -56,6 +56,7 @@ You can download those cards [here](files/craft-self-assessment.pdf).
 
 ## Clean Code
 ![Clean Code](img/clean-code.png)
+- [Codefather: A Coding Kata on Naming](https://github.com/gsaslis/coding-kata-naming)
 - [Crappy-Driven Development](https://github.com/ythirion/crappy-driven-development/)
 - [S.O.L.I.D principles](https://github.com/ythirion/solid-kata)
 - [Programmer's Brain - What every programmer needs to know about cognition](https://miro.com/app/board/o9J_l0DSaRQ=/?share_link_id=531195470496)
