@@ -92,6 +92,7 @@ You can download those cards [here](files/craft-self-assessment.pdf).
 - [Styles of Unit Tests](https://sammancoaching.org/learning_hours/test_design/styles_of_unit_tests.html)
 - [The hunt for anti-patterns](https://github.com/katalogs/learning-hours/blob/main/clean-testing/7-anti-patterns/Facilitation.md)
 - [The hunt for 100% code coverage](https://github.com/katalogs/learning-hours/blob/main/clean-testing/8-hunt-to-100percent-coverage/Facilitation.md)
+- [Define your Test Strategy](https://philippe.bourgau.net/a-complete-workshop-for-your-team-to-see-what-s-a-good-test-strategy/)
 
 ### Test Data Builders
 - [Refactoring test inputs with Test Data Builders](https://github.com/katalogs/learning-hours/blob/main/test-data-builders/refactoring-test-inputs-with-test-data-builders/Facilitation.md)
